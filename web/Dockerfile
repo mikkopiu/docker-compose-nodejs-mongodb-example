@@ -1,8 +1,8 @@
-FROM node:0.10
+FROM node:argon
 
 ADD package.json /code/
 WORKDIR /code
 RUN npm install
 ADD . /code
 
-CMD ["./node_modules/.bin/coffee", "./server.coffee"]
+CMD ["node", "server.js"]
