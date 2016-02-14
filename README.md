@@ -1,9 +1,11 @@
+#### Docker Compose and ES6 port of https://github.com/felixrabe/fig-nodejs-mongodb-example
+
 Simple List Application
 =======================
 
-    git clone https://github.com/felixrabe/fig-nodejs-mongodb-example.git
-    cd fig-nodejs-mongodb-example
-    fig up
+    git clone https://github.com/mikkopiu/docker-compose-nodejs-mongodb-example.git
+    cd docker-compose-nodejs-mongodb-example
+    docker-compose up
 
 
 License
